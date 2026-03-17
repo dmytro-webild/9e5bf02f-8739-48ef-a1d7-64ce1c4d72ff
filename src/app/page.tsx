@@ -51,7 +51,7 @@ export default function LandingPage() {
           tag="Premium Restobar"
           tagIcon={Sparkles}
           tagAnimation="slide-up"
-          background={{ variant: "circleGradient" }}
+          background={{ variant: "radial-gradient" }}
           buttons={[
             { text: "Reserve Table", href: "#reservation" },
             { text: "View Menu", href: "#menu" }
@@ -251,7 +251,7 @@ export default function LandingPage() {
           tag="Transparency First"
           tagIcon={Check}
           tagAnimation="slide-up"
-          textboxLayout="centered"
+          textboxLayout="default"
           useInvertedBackground={false}
           animationType="slide-up"
           metrics={[
